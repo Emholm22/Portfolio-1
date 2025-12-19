@@ -1,0 +1,45 @@
+
+:root {
+  --font-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --text-color: #3b2416;
+  --bg: #f5f7fb;
+  --accent: #a15f33;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-base);
+  background: var(--bg);
+  color: var(--text-color);
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 2rem;
+  background: #fff;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
