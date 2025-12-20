@@ -105,3 +105,17 @@ nav a:hover {
 .btn:hover {
   opacity: 0.85;
 }
+
+.section-label {
+  width: 100%;
+  padding: 1.5rem 0;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+}
+
+.section-label span {
+  font-size: 0.9rem;
+  letter-spacing: 0.4em;
+  color: #2b2b2b;
+}
