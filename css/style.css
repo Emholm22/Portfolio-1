@@ -119,3 +119,18 @@ nav a:hover {
   letter-spacing: 0.4em;
   color: #2b2b2b;
 }
+
+.panel {
+  margin: 2rem 4rem 3rem;
+}
+
+.panel h2 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.panel p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #3b2b20;
+}
